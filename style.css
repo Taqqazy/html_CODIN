@@ -3,25 +3,31 @@ h1 {
   font-family: montserrat;
 }
 
-body{
+
+body {
   margin: 0;
   padding: 0;
   background: #f1f1f1;
 }
-#menu{
+
+#menu {
   margin: 0;
   padding: 0;
-  margin-top: 350px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-#menu li{
+
+#menu li {
   list-style: none;
   display: inline-block;
 }
-#menu li a{
+
+#menu li a {
   text-decoration: none;
   position: relative;
-  color: #313131;
-  font-size: 50px;
+  color: #ffffff;
+  font-size: 30px;
   font-weight: 700;
   font-family: sans-serif;
   display: block;
@@ -30,7 +36,8 @@ body{
   padding: 14px 30px;
   text-transform: uppercase;
 }
-#menu li a:before{
+
+#menu li a:before {
   content: '';
   width: 60px;
   position: absolute;
@@ -39,6 +46,13 @@ body{
   right: 350px;
   transition: 0.7s all;
 }
-#menu li a:hover:before{
+
+#menu li a:hover:before {
   right: 0;
+}
+
+#banniere {
+  height: 20%;
+  width: 100%;
+  background-image: "medias/banniere.jpg";
 }
