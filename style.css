@@ -15,7 +15,7 @@ body {
   padding: 0;
   margin-top: 50px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 #menu li {
@@ -52,7 +52,7 @@ body {
 }
 
 #banniere {
-  height: 20%;
+  height: 40vh;
   width: 100%;
-  background-image: "medias/banniere.jpg";
+  background-image: url(medias/banniere.jpg);
 }
