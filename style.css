@@ -13,9 +13,10 @@ body {
 #menu {
   margin: 0;
   padding: 0;
-  margin-top: 50px;
+  margin-top: 0px;
+  padding-bottom: 50px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6) 30%, transparent);
 }
 
 #menu li {
@@ -27,7 +28,7 @@ body {
   text-decoration: none;
   position: relative;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   font-family: sans-serif;
   display: block;
@@ -41,7 +42,7 @@ body {
   content: '';
   width: 60px;
   position: absolute;
-  border-bottom: 8px solid #313131;
+  border-bottom: 4px solid #ffffff;
   bottom: 0;
   right: 350px;
   transition: 0.7s all;
@@ -52,7 +53,13 @@ body {
 }
 
 #banniere {
-  height: 40vh;
+  height: 30vw;
   width: 100%;
-  background-image: url(medias/banniere.jpg);
+  background-image: url("medias/test.png");
+  background-size: cover;
+}
+
+img {
+  width: 600px;
+  height: auto;
 }
