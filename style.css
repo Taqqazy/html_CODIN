@@ -45,7 +45,7 @@ body {
   border-bottom: 4px solid #ffffff;
   bottom: 0;
   right: 350px;
-  transition: 0.5s all;
+  transition: 0.7s all;
 }
 
 #menu li a:hover:before {
