@@ -12,8 +12,8 @@ h3 {
   font-family: montserrat;
   padding-top: 10px;
   padding-bottom: 1px;
-  border-bottom: 2px solid orange;
   padding-left: 20px;
+  margin-bottom: 1px;
 }
 
 h4 {
@@ -26,6 +26,13 @@ body {
   margin: 0;
   padding: 0;
   background: #f1f1f1;
+}
+
+hr {
+  margin-top: 0px;
+  height: 2px;
+  background-image: linear-gradient(to right, rgb(62, 103, 155) 10%, rgb(152, 87, 129) 25%, rgb(250, 115, 111) 35%, rgb(255, 253, 117) 50%, rgb(250, 115, 111) 65%, rgb(152, 87, 129) 75%, rgb(62, 103, 155) 90%);
+  border: none;
 }
 
 #menu {
