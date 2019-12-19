@@ -29,7 +29,6 @@ body {
 }
 
 hr {
-  margin-top: 0px;
   height: 2px;
   background-image: linear-gradient(to right, rgb(62, 103, 155) 10%, rgb(152, 87, 129) 25%, rgb(250, 115, 111) 35%, rgb(255, 253, 117) 50%, rgb(250, 115, 111) 65%, rgb(152, 87, 129) 75%, rgb(62, 103, 155) 90%);
   border: none;
