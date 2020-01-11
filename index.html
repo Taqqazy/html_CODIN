@@ -2,61 +2,72 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>Los Santos : Office du tourisme</title>
   </head>
   <body>
-    <h1>Office du tourisme de Los Santos</h1>
     <div id="banniere">
       <ul id="menu">
-        <li><a href="index.html">Accueil / Histoire</a></li>
+        <li><a href="index.html"><img id="logo" src="medias/logo.png" alt="logo_los-santos"></a></li>
         <li><a href="monuments.html">Monuments</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">À propos de nous</a></li>
       </ul>
+      <div id="text-home"><h1>Office du tourisme de Los Santos</h1></div>
     </div>
-    <h2>Bienvenue à Los Santos !</h2>
-    <h3>Informations générales</h3>
-    <p>La charmante ville de Los Santos se situe dans le Blaine County.</p>
-    <h4>L'histoire de Los Santos</h4>
-    <p>L'histoire de cette ville est en rapport direct avec sa géographie : à l'est, le ghetto majoritairement peuplé d'Afro-Américains qui est divisé en territoires appartenant aux trois gangs de la ville.<br />
-    Au centre de la ville, ne règnent que les commerces et les boites de nuit. La plage est gouvernée par les Vagos. Le Nord-ouest de la ville est la partie riche comprenant de belles propriétés et où les cinémas et quelques emblèmes du commerces y figurent.<br />
-    C'est la ville la plus dangereuse d'Amérique et l'une des plus dangereuses au monde. C'est aussi l'une des villes où le trafic routier est le plus dangereux (plus 500 morts par ans). </p>
-    <h4>La géographie de la ville</h4>
-    <p>La ville de Los Santos est située dans le sud-est de l'État de San Andreas, bordée par la mer et isolée du reste de la carte par quelques bras de rivières.<br />
-    Los Santos est la plus grosse agglomération, entourée de quatre villages qui constituent ses "Bad-Lands" (inspiré du comté d'Orange en Californie), avec de nombreux espaces de cultures et de forêts :
-    <ul>
-      <li>Blueberry : Village à l'ouest. Une grande usine occupe le village.</li>
-      <li>Montgomery : Un petit village au nord de Red County, bordé par un bras de rivière au nord, séparant Los Santos et Las Venturas.</li>
-      <li>Dillimore : Village proche du centre ville.</li>
-      <li>Palomino Creek : Petite ville possédant une plage donnant sur le "Fisher Lagoon". Un Triathlon est proposé au départ de ce lac.</li>
-    </ul>
-    </p>
-    <h4>Les quartiers</h4>
-    <p>La ville possède différents quartiers touristiques qui permetteront aux plus aventuriers de ne pas s'ennuyer !<br />
-    <ul>
-      <li>Vinewood : Le quartier est réputé pour ses studios de cinéma et les sièges sociaux des grands groupes cinématographiques. En 1911, Nico Bellic est le premier studio de cinéma à s'installer à Vinewood.</li>
-      <li>Del Perro : Del Perro est une communauté branchée et décontractée sur le front de mer, habitée par des yuppies bronzés tendance new-age. Le niveau de vie des clochards de Del Perro est nettement supérieur à ceux du reste des États-Unis.</li>
-      <li>Downtown Los Santos : Downtown Los Santos est le quartier où se trouvent le gouvernement de la ville, la plupart des institutions d'arts et les complexes sportifs, ainsi qu'un grand nombre de gratte-ciels et de centres commerciaux. C'est le concentrateur des réseaux de transport de la ville, où se retrouvent l'essentiel des autoroutes et des transports en commun.</li>
-    </ul>
-    </p>
-    <h4>Se déplacer à Los Santos</h4>
-    <p>La ville possède plusieurs modes de transports pour que vous puissiez l'explorer durant votre séjour.
-    <ul>
-      <li>Réseau routier
-        <ul>
-          <li>Le premier réseau part du village de "Montgomery" et permet d'effectuer le tour complet du comté en passant par "Palomino Creek" puis par l'extérieur de la ville avant de se terminer au "Mulholland Intersection".</li>
-          <li>Un deuxième segment permet de rallier la ville de « Las Venturas » au "Los Santos International Airport", en ligne droite à travers les bad-lands et la ville de Los Santos et en passant par "Mulholland Intersection".</li>
-          <li>La dernière autoroute prend son départ au Nord dans un tunnel sur "Mulholland" et se rend directement à « San Fierro » en passant par « Angel Pine », le Mont Chiliad, Paleto Bay, puis cet autoroute se dédoublera au niveau de Sandy Shores pour faire deux entrées pour Los Santos : Sud et Est.</li>
-        </ul>
-      </li>
-      <li>Réseau ferroviaire
-        <ul>
+    <div id="page">
+      <h2>Bienvenue à Los Santos !</h2>
+      <hr />
+      <h3>Informations générales</h3>
+      <p>La charmante ville de Los Santos se situe dans le Blaine County.</p>
+      <div class="c1" onclick="javascript:montrer_spoiler('spoiler2')">
+        <h4 id="affichecarte"><a href="#">Afficher la carte</a></h4>
+        <script>
+          function montrer_spoiler(value){var actualvis=document.getElementById(value).style.visibility;
+            if (actualvis=='visible'){document.getElementById(value).style.visibility='hidden';document.getElementById(value).style.position='absolute';} else{document.getElementById(value).style.visibility='visible';document.getElementById(value).style.position='relative';}}
+        </script>
+        <dl id="spoiler2">
+          <dt></dt>
+          <dd><img id="map" src="medias/map_lossantos.jpg" alt="map"></dd>
+        </dl>
+      </div>
+      <h4>L'histoire de Los Santos</h4>
+      <p>L'histoire de cette ville est en rapport direct avec sa géographie : à l'est, le ghetto majoritairement peuplé d'Afro-Américains qui est divisé en territoires appartenant aux trois gangs de la ville.<br />
+      Au centre de la ville, ne règnent que les commerces et les boites de nuit. La plage est gouvernée par les Vagos. Le Nord-ouest de la ville est la partie riche comprenant de belles propriétés et où les cinémas et quelques emblèmes du commerces y figurent.<br />
+      C'est la ville la plus dangereuse d'Amérique et l'une des plus dangereuses au monde. C'est aussi l'une des villes où le trafic routier est le plus dangereux (plus 500 morts par ans). </p>
+      <h4>La géographie de la ville</h4>
+      <p>La ville de Los Santos est située dans le sud-est de l'État de San Andreas, bordée par la mer et isolée du reste de la carte par quelques bras de rivières.<br />
+      Los Santos est la plus grosse agglomération, entourée de quatre villages qui constituent ses "Bad-Lands" (inspiré du comté d'Orange en Californie), avec de nombreux espaces de cultures et de forêts :</p>
+      <ul>
+        <li>Blueberry : Village à l'ouest. Une grande usine occupe le village.</li>
+        <li>Montgomery : Un petit village au nord de Red County, bordé par un bras de rivière au nord, séparant Los Santos et Las Venturas.</li>
+        <li>Dillimore : Village proche du centre ville.</li>
+        <li>Palomino Creek : Petite ville possédant une plage donnant sur le "Fisher Lagoon". Un Triathlon est proposé au départ de ce lac.</li>
+      </ul>
 
+      <h4>Les quartiers</h4>
+      <p>La ville possède différents quartiers touristiques qui permetteront aux plus aventuriers de ne pas s'ennuyer !</p>
+      <ul>
+        <li>Vinewood : Le quartier est réputé pour ses studios de cinéma et les sièges sociaux des grands groupes cinématographiques. En 1911, Nico Bellic est le premier studio de cinéma à s'installer à Vinewood.</li>
+        <li>Del Perro : Del Perro est une communauté branchée et décontractée sur le front de mer, habitée par des yuppies bronzés tendance new-age. Le niveau de vie des clochards de Del Perro est nettement supérieur à ceux du reste des États-Unis.</li>
+        <li>Downtown Los Santos : Downtown Los Santos est le quartier où se trouvent le gouvernement de la ville, la plupart des institutions d'arts et les complexes sportifs, ainsi qu'un grand nombre de gratte-ciels et de centres commerciaux. C'est le concentrateur des réseaux de transport de la ville, où se retrouvent l'essentiel des autoroutes et des transports en commun.</li>
+      </ul>
+      <h2>Se déplacer à Los Santos</h2>
+      <hr />
+      <p>La ville possède plusieurs modes de transports pour que vous puissiez l'explorer durant votre séjour.</p>
+      <h3>Réseau routier</h3>
+          <ul>
+            <li>Le premier réseau part du village de "Montgomery" et permet d'effectuer le tour complet du comté en passant par "Palomino Creek" puis par l'extérieur de la ville avant de se terminer au "Mulholland Intersection".</li>
+            <li>Un deuxième segment permet de rallier la ville de « Las Venturas » au "Los Santos International Airport", en ligne droite à travers les bad-lands et la ville de Los Santos et en passant par "Mulholland Intersection".</li>
+            <li>La dernière autoroute prend son départ au Nord dans un tunnel sur "Mulholland" et se rend directement à « San Fierro » en passant par « Angel Pine », le Mont Chiliad, Paleto Bay, puis cet autoroute se dédoublera au niveau de Sandy Shores pour faire deux entrées pour Los Santos : Sud et Est.</li>
+          </ul>
+      <h3>Réseau ferroviaire</h3>
+        <ul>
+          <li>"Unity Station", située à proximité du quartier de "El Corona", cette gare est réputée pour posséder un grand parking idéal pour les concours de Lowrider.</li>
+          <li>"Market Station", gare souterraine située sous le quartier "Market".</li>
         </ul>
-      </li>
-    </ul>
-    </p>
+    </div>
   </body>
 </html>
