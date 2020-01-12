@@ -33,6 +33,13 @@ body {
 .monu
 {
   overflow: hidden;
+  margin-top: 15px;
+}
+
+.monu p
+{
+  padding-top: 5px;
+  margin-top: 0px;
 }
 
 .picture
