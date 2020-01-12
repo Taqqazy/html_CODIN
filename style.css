@@ -15,6 +15,7 @@ h3 {
   padding-bottom: 1px;
   padding-left: 20px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 h4 {
@@ -26,6 +27,17 @@ body {
   margin: 0;
   padding: 0;
   background: #f1f1f1;
+}
+
+.monu
+{
+  overflow: hidden;
+}
+
+.picture
+{
+  float: left;
+  margin-right: 18px;
 }
 
 #page {
@@ -41,21 +53,6 @@ hr {
   background-image: linear-gradient(to right, rgba(62, 103, 155,0) 10%, rgb(152, 87, 129) 25%, rgb(250, 115, 111) 35%, rgb(255, 253, 117) 50%, rgb(250, 115, 111) 65%, rgb(152, 87, 129) 75%, rgba(62, 103, 155, 0) 90%);
   border: none;
   margin-bottom: 30px;
-}
-
-.flottant
-{
-  overflow: hidden;
-  padding-left: 15px;
-  text-align: justify;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-}
-
-.flottant .pic
-{
-  float: left;
-  margin-right: 20px;
 }
 
 #menu {
