@@ -110,7 +110,7 @@ hr {
 #banniere {
   height: 30vh;
   width: 100%;
-  background-image: url("medias/banniere.png");
+  background-image: linear-gradient(to top, rgba(241,241,241,1), rgba(241,241,241,0) 10%), url("medias/banniere.png");
   background-size: cover;
 }
 
