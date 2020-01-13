@@ -86,9 +86,21 @@ hr
   justify-content: center;
 }
 
-#menu li {
+#menu li, #menu li ul li {
   list-style: none;
   display: inline-block;
+}
+
+#menu li ul {
+  position: absolute;
+  left: -999em;
+  text-align: left;
+  z-index: 1000;
+}
+
+#menu li:hover ul {
+    left: auto;
+    display: flex;
 }
 
 #menu li a {
