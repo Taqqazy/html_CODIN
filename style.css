@@ -44,7 +44,7 @@ body {
 
 .picture
 {
-  width: 50vw;
+  width: 20vw;
   height: auto;
   float: left;
   margin-right: 18px;
@@ -61,7 +61,7 @@ body {
 
 #motto
 {
-  font-family: Brush Script MT;
+  font-family: "Brush Script MT";
   text-align: center;
   font-style: italic;
   font-size: 1.8em;
