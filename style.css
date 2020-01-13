@@ -44,6 +44,8 @@ body {
 
 .picture
 {
+  width: 50vw;
+  height: auto;
   float: left;
   margin-right: 18px;
 }
